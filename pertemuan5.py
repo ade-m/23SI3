@@ -19,3 +19,28 @@ for i in range(n,x+1,1):
         print(i, end=' ')
 print("\n==========")
 
+#perulangan 1 sampai n
+i=1
+while i<=n:
+    print(i, end='\t')
+    i+=1
+print("\n==========")
+
+n = int(input("input n : "))
+x=n
+for i in range(1,n,1):
+    x*=(n-i)
+
+print(n,"! =",x)
+#input
+pilihan ='y'
+while pilihan=='y':
+    angka = int(input("masukkan angka : "))
+    if(angka %2==0):
+        print(angka, " adalah bilangan genap")
+    else:
+        print(angka, " adalah bilangan ganjil")
+    pilihan = input("lanjut (y/n) ? ")
+
+
+
