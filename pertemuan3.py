@@ -1,11 +1,11 @@
 #program untuk hitung luas segitiga
 
 #input
-alas=5
-tinggi=10
+alas= input( "Masukkan alas (cm) :")
+tinggi= input( "Masukkan tinggi (cm) :")
 
 #proses
-luas = (alas*tinggi)/2
+luas = (int(alas)*int(tinggi))/2
 
 print("Luas Segitiga = ", luas)
 print("Luas Segitiga = ", int(luas))
