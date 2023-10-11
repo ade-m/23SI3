@@ -16,7 +16,7 @@ for i in range(n):
 #output
 print(namaMatakuliah)
 print(nilaiMatakuliah)
-print("Nama Matakuliah \t\t Nilai")
+print("Nama Matakuliah \t Nilai")
 print("========================================")
 for i in range(n):
-   print(namaMatakuliah[i]," \t\t ",nilaiMatakuliah[i])
+   print(namaMatakuliah[i]," \t\t\t ",nilaiMatakuliah[i])
