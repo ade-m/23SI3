@@ -16,7 +16,7 @@ for i in range(n):
     tmpnilaiHuruf=""
     if (tmpnilaiMatakuliah>=90):
         tmpnilaiHuruf="A"
-    elif ((80>= tmpnilaiMatakuliah) and (tmpnilaiMatakuliah<90)):
+    elif (( tmpnilaiMatakuliah>=80) and (tmpnilaiMatakuliah<90)):
         tmpnilaiHuruf="B"
     else:
         tmpnilaiHuruf="C"
@@ -24,7 +24,6 @@ for i in range(n):
 
 
 #output
-
 print("Nama Matakuliah \t Nilai \t Nilai Huruf")
 print("=====================================================")
 for i in range(n):
