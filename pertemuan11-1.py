@@ -25,6 +25,7 @@ nilais = input("Input (1-999):")
 nilai=""
 #ratusan
 
+
 #ratusan
 if(len(nilais)==1):
     nilai= " "
