@@ -8,11 +8,9 @@ def inigenap_atau_ganjil(bilangan):
         print(bilangan, " adalah bilangan ganjil")
 
 def luasPersegi(sisi):
-    luas = sisi*sisi
-    return luas
+    return sisi*sisi
 
-luas = luasPersegi(10)
-print(luas)
+print(luasPersegi(10))
 inigenap_atau_ganjil(8)
 inigenap_atau_ganjil(101)
 inigenap_atau_ganjil(7890)
